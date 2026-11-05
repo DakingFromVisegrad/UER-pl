@@ -1,0 +1,540 @@
+///////////////////////
+/// LOADING SCREENS ///
+///////////////////////
+
+// NOTE: The game will load the following loading screens only!
+// The game won't load the data from the English file as the default value. Please make sure that all loading screens are configured correctly.
+// All configures are case-sensitive.
+
+[
+	{
+		"title": "Anomalne Kaczki",
+		"image": "ducks.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Żółta Kaczka: Identyczna do nieanomalnej gumowej kaczki w zarysie i konstrukcji— aczkolwiek zostawiony sam w pokoju obiekt zawsze pojawia się w innym miejscu niż został początkowo umieszczony.",
+			"Biała Kaczka: Obiekt ma wygląd kaczki noszącej prześcieradło, podobne do tych uproszczonych, Halloween'owych kostiumów ducha. Zaobserwowano, że kaczka lewituje 5-7cm ponad stałymi i ciekłymi powierzchniami.",
+			"Saksofonowa Kaczka: Obiekt wygląda na kaczkę trzymającą mały saksofon, na którym, jak zaobserwowano, \"gra\" w losowych odstępach czasu— emitując pojedynczy, wydłużony dźwięk po którym następuje seria niepowiązanych melodyczne tonów.",
+			"Pomarańczowa Lecząca Kaczka: Mimo, iż kaczka nie posiada żadnych klinicznie znaczących właściwości leczących lub przeciwbólowych, jeśli będzie trzymana przez podmiot cierpiący z powodu mniejszych lub większych ran, to podmiot odkryje później, że zranione obszary są pokryte proporcjonalną liczbą bandaży, niezależnie od pochodzenia rany."
+		]
+	},
+	{
+		"title": "Personel Klasy D",
+		"image": "class_d.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"Personel Klasy D to wyznaczony personel używany do testowania obiektów SCP. Personel klasy D jest również używany do pracy fizycznej (tj. serwowania żywności, logistyki i niebezpiecznych prac sprzątających/konserwacyjnych).",
+			"Personel Klasy D jest rekrutowany z więźniów. Preferowane są osoby skazane na śmierć; w czasach przymusu może być autoryzowany Protokół 12, umożliwiający rekrutację niewinnych lub osób uwięzionych za drobniejsze przestępstwa.",
+			"Wszyscy członkowie personelu Klasy D mają być unieszkodliwieni w [DANE ZREDAGOWANO], a nowy personel musi być gotowy, aby go zastąpić.",
+			"W rzadszych przypadkach więźniowie skazani za gorsze przestępstwa zostaną desygnowani \"high risk\" i jako tacy oddzieleni od normalnego personelu klasy D, wyposażoni w nowe mundury i przeznaczeni do obiektów klasy Keter."
+
+		]
+	},
+	{
+		"title": "Rebelia Chaosu",
+		"image": "chaos.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"Rebelia Chaosu to odłam Fundacji, stworzony przez zbuntowaną komórkę, która zniknęła z kilkoma bardzo użytecznimi obiektami SCP w 1924 roku.",
+			"Główna baza operacyjna Rebelii jest nieznana, podobnie jak jej przywódcy. Ta organizacja jest bezpośrednio antagonistyczna wobec Fundacji, wielokrotnie dochodziła do starć o SCP.",
+			"Personel ma być zobowiązany świadomości możliwych nalotów, prób terrorystycznych i szpiegów z Rebelii, oraz do powiadamiania dowództwa o wszelkich dziwnych zachowaniach kolegów z personelu."
+		]
+	},
+	{
+		"title": "Fundacja SCP",
+		"image": "foundation_logo.png",
+		"align_x": "left",
+		"align_y": "top",
+		"background": true,
+		"descriptions": [
+			"Fundacja SCP to organizacja poświęcona zabezpieczaniu i badaniu anomalnych artefaktów i form życia.",
+			"\"SCP\" oznacza \"Special Containment Procedures\" (oraz nieoficjalne motto Fundacji, \"Secure, Contain, Protect\") -  co podsumowuje zarówno cele, jak i metody działań Fundacji."
+		]
+	},
+	{
+		"title": "SCP-005",
+		"image": "005.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-005 przypomina ozdobny, staroświecki klucz, podobny do kluczy produkowanych na szeroką skalę w latach 20. XX wieku.",
+			"SCP-005 zdaje się posiadać nietypową zdolność otwierania zamków każdego typu, z relatywną łatwością — zarówno mechanicznego, jak i cyfrowego. Źródło tej zdolności nie zostało rozpoznane.",
+			"Choć SCP-005 wykazuje wysoką skuteczność w otwieraniu wszelkich zabezpieczeń, dalsze eksperymenty wykazały, iż próby zamaskowania celu lub niewskazania dokładnego zamka w nieznany sposób niweczą zdolności SCP-005."
+		]
+	},
+	{
+		"title": "SCP-008",
+		"image": "008.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-008 jest złożonym prionem, którego próbki znajdują się w odpowiednich budynkach kompleksu G2. Badania nad SCP-008 mają wysoki priorytet i są przede wszystkim nastawione na uniemożliwienie syntezy SCP-008, nawet jeśli możliwe będzie to dopiero w odległej przyszłości.",
+			"Cechy SCP-008 są następujące:: W 100% zaraźliwy. W 100% śmiercionośny. Możliwy do roznoszenia poprzez wymianę płynów ustrojowych organizmów oraz przenikanie przez błony śluzowe. Niemożliwy do roznoszenia drogą powietrzną ani kropelkową."
+		]
+	},
+	{
+		"title": "SCP-009",
+		"image": "009.png",
+		"align_x": "right",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-009 to około 3700 litrów substancji, która wykazuje szereg unikalnych właściwości. Podczas gdy niewielkie ilości substancji, we wszystkich stanach skupienia, są bezbarwne jak zwykła woda, masowo przybierają charakterystyczny, głęboki, czerwony odcień.",
+			"Jej najbardziej godną uwagi cechą jest jednak fakt, że reakcja SCP-009 na skrajne temperatury jest dokładnie odwrotna niż w przypadku standardowego H2O: obiekt przyjmuje fazę ciekłą w temperaturach od -100°C do 0°C, a powyżej tych temperatur przechodzi w stan stały. W temperaturach poniżej -100°C SCP-009 odparowuje w fazę gazową podobną do pary wodnej, jednak zachowuje swoją czerwoną barwę, gdy zostanie poddany wysokiemu ciśnieniu.",
+			"Jeżeli obiekt wejdzie w kontakt z jakimkolwiek biologicznym źródłem ciepła, rozpoczyna niekontrolowaną reakcję w której płyny ustrojowe organizmu żywego szybko zamieniają się w SCP-009 i zostają zamrożone przez ciepło jego własnego ciała (ze względu na ogólnie wysoką temperaturę ciała ssaki są na to szczególnie podatne)."
+		]
+	},
+	{
+		"title": "SCP-012",
+		"image": "012.png",
+		"align_x": "right",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-012 został odnaleziony przez Archeologa K.M. Sandovala podczas wykopalisk w północnowłoskim grobowcu. Obiekt, fragment odręcznej partytury muzycznej zatytułowany \"Na Górze Golgocie\", wydaje się niekompletny.",
+			"Czerwono-czarny atrament, początkowo uważany za jakąś formę atramentu z jagód lub naturalnego barwnika, okazał się ludzką krwią pochodzącą od wielu jednostek.",
+			"Wielu obiektom testowym umożliwiono dostęp do partytury. W każdym przypadku badający okaleczał się, próbując ukończyć utwór własną krwią, co wywoływało w następstwie schizofrenię i masową traumę."
+		]
+	},
+	{
+		"title": "SCP-035",
+		"image": "035.png",
+		"align_x": "right",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-035 wygląda jak biała, porcelanowa maska używana w komediach, jednakże niekiedy jej grymas zmienia się na typowo tragediowy.",
+			"Kiedy podmiot zostaje nałożony na ludzką twarz, alternatywny wzór emisji fal mózgowych, pochodzący z obiektu, nachodzi na wzór osoby, która założyła maskę. Po pewnym czasie dojdzie do śmierci mózgowej nosiciela. Jego ciało jednakże stwierdzi, iż posiada świadomość SCP-035.",
+			"Analizy psychologiczne wykazały, iż podmiot posiada wybitne zdolności manipulacyjne; obiekt może wywołać nagłe zmiany nastroju osoby, z którą rozmawia. SCP-035 okazał się wysoce sadystyczny, skłaniając niektórych do popełnienia samobójstwa samą perswazją językową."
+		]
+	},
+	{
+		"title": "SCP-049",
+		"image": "049.png",
+		"align_x": "left",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-049 ma wygląd humanoidalny; jednakże Fundacja nie jest obecnie w stanie dokładniej zbadać jego twarzy ani ciała, gdyż obiekt pokryty jest tradycyjnym odzieniem \"Lekarzy Plag\" z XV- i XVI-wiecznej Europy.",
+			"Po kontakcie z ręką SCP-049 ofiara (zwana od tego momentu SCP-049-2) będzie cierpiała [USUNIĘTO], a następnie momentalnie umrze.",
+			"SCP-049 następnie wyciąga torbę wykonaną z [ZMIENIONO] zawierającą skalpele, igły, szpule nici i kilka fiolek jak dotąd niezidentyfikowanej substancji i rozpoczyna sekcję SCP-049-2, a także umieści w nim różne substancje chemiczne.",
+			"Po około dwudziestu (20) minutach SCP-049 zaszywa SCP-049-2 i ponownie staje się łagodny. Po kilku minutach SCP-049-2 wznowi funkcje życiowe i wydaje się reanimować."
+		]
+	},
+	{
+		"title": "SCP-066",
+		"image": "066.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-066 to bezkształtna masa zawile splecionych nici ważąca około jeden (1) kilogram.",
+			"Po Incydencie 066-2 (zobacz Raport Incydentu 066-2), SCP-066 zaczęło wykazywać zachowanie wysoce niespójne z jego wcześniejszymi właściwościami.",
+			"SCP-066 posiada teraz wyjątkową mobilność, i wytwarza dźwięki oraz anomalne efekty w obecności dowolnego człowieka, bez względu na to, czy wchodzi on w interakcję z SCP-066, czy nie."
+		]
+	},
+	{
+		"title": "SCP-079",
+		"image": "079.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-079 to mikrokomputer modelu Exidy Sorcerer, stworzony w roku 1978.",
+			"Nie wiadomo, kiedy SCP-079 stał się świadomy, lecz dowiedziano się, że jego oprogramowanie ewoluowało do poziomu, na którym sprzęt komputerowy nie byłby w stanie obsługiwać programów, nawet w świecie fantazji.",
+			"Obiekt przeszedł test Turinga i jest bardzo rozmowny, jednakże jest również niegrzeczny i używa nienawistnego tonu. Wykazuje również złowrogie pragnienie ucieczki."
+		]
+	},
+	{
+		"title": "SCP-096",
+		"image": "096.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"Normalnie SCP-096 jest niezwykle łagodny; czujniki zmiany ciśnienia wewnątrz celi wskazują na to, że obiekt większość dnia spędza na powolnym spacerowaniu wzdłuż wschodniej ściany przechowalni.",
+			"Jednakże, jeżeli ktoś spojrzy na twarz SCP-096, niezależnie od tego, czy bezpośrednio, na nagranie wideo, czy na zdjęcie, podmiot wejdzie w stan silnej męki emocjonalnej.",
+			"W czasie około jednej do dwóch minut od pierwszego obejrzenia twarzy obiektu, SCP-096 zacznie biec w kierunku osoby, która ujrzała jego twarz."
+		]
+	},
+	{
+		"title": "CWM",
+		"image": "CWM.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": null
+	},
+	{
+		"title": "SCP-106",
+		"image": "106.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-106 wygląda na starszego humanoida, którego wygląd ogólny wskazuje na zaawansowany stopień rozkładu. Ten wygląd ulega zmianom, jednak cecha \"gnicia\" jest obserwowana we wszystkich formach.",
+			"SCP-106 wywołuje efekt \"korozji\" na każdej materii stałej, której dotknie, co wywołuje fizyczny rozpad materiałów w kilka sekund po kontakcie. Zaobserwować można to w formie rdzewienia, rozkładu lub pękania, co prowadzi do powstania czarnej, śluzowej substancji podobnej do materiału okrywającego SCP-106.",
+			"SCP-106 może przenikać przez materię stałą i łapie oraz zabija swoje ofiary poprzez zaciągnięcie ich do tego co przypuszczalnie jest jego osobistym \"wymiarem kieszonkowym\"."
+		]
+	},
+	{
+		"title": "SCP-173",
+		"image": "173.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-173 jest zbudowany z betonu i prętów zbrojeniowych oraz pomalowany farbą w spreju marki Krylon. Jest obiektem żywym i ekstremalnie niebezpiecznym.",
+			"Obiekt nie może się poruszać, kiedy ktokolwiek na niego patrzy. Z obiektem należy zawsze utrzymywać kontakt wzrokowy. Członkowie personelu wpuszczani do przechowalni są instruowani, by zgłaszać, zanim mrugną."
+		]
+	},
+	{
+		"title": "SCP-205",
+		"image": "205.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-205 to para reflektorów używanych w fotografii. Światło emitowane przez każdą z lamp przejawia zachowanie unikatowe dla SCP-205 i przenika kompletnie przez każdą powierzchnię o kolorze innym niż biały.",
+			"Jeśli światło pada bez przeszkody ze strony jakiejkolwiek materii, nie rzucając żadnego cienia, każda z lamp ukaże cień niezidentyfikowanej młodej kobiety na dowolnej białej powierzchni płaskiej, jak na przykład ekran projekcyjny w Komorze 52."
+		]
+	},
+	{
+		"title": "SCP-268",
+		"image": "268.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-268 jest czapką gazeciarza z tweedowej wełny. Projekt i produkcja wydają się być irlandzkiego pochodzenia. Ze względu na styl i materiał przyjmuje się, że został stworzony między końcem wieku XVIII a początkiem wieku XIX, choć analiza materiału nie dostarcza rozstrzygającej odpowiedzi.",
+			"SCP-268 wydaje się być normalnym kapeluszem, dopóki się go nie założy. Jednak każdy, kto tak zrobi, stanie się nagle i błyskawicznie niezauważalny. Obiekty stają się niezapadające w pamięć, kompletnie niewyróżniające się lub \"brane za pewnik\" przez wszystkich obserwatorów.",
+			"Obserwatorzy wydają się mieć silne wrażenie, że nosiciel jest kimś, kto \"miał tam być\", w konsekwencji czego nie zastanawiali się nad tym ani nie zauważali tego."
+		]
+	},
+	{
+		"title": "SCP-294",
+		"image": "294.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Obiekt SCP-294 przypomina standardowy automat do kawy; jedyną wizualną różnicą jest panel dotykowy z przyciskami odpowiadającymi standardowi klawiatur QWERTY.",
+			"Po wpisaniu tytułu dowolnego płynu za pomocą panelu dotykowego, zostanie umieszczony papierowy kubek o pojemności 355 ml, do którego zostanie wlany płyn, który wybrał użytkownik.",
+			"Przeprowadzono dziewięćdziesiąt siedem uruchomień wstępnych (zamawiano m.in. wodę, kawę, piwo, napoje gazowane, płyny nieprzeznaczone do konsumpcji jak np. kwas siarkowy, płyn do spryskiwaczy, olej silnikowy, a nawet substancje, które zazwyczaj nie istnieją w stanie ciekłym — np. azot, żelazo czy szkło), z których każde skutkowało dostarczeniem wybranego produktu."
+		]
+	},
+	{
+		"title": "SCP-372",
+		"image": "372.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-372 jest stworzeniem nieznanego gatunku, mierzącego około 2 metrów długości od głowy do ogona, ważące w przybliżeniu 45 kilogramów. Posiada długie, cienkie ciało z ośmioma parami wąskich kończyn.",
+			"SCP-372 nauczył się przewidywać ruchy każdej istoty wokół siebie, i używa tej techniki do ukrywania się za osobą, w martwej części pola widzenia.",
+			"W przypadku naruszenia procedur przechowawczych, wszyscy pracownicy są proszeni o zgłaszanie krótkich ruchów w kącie widzenia."
+		]
+	},
+	{
+		"title": "SCP-409",
+		"image": "409.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-409 wygląda jak wielki kryształ kwarcowy o wysokości 1,5 m (5 stóp) i grubości 0,6 m (2 stopy).",
+			"Każdy przedmiot mający kontakt z SCP-409 zacznie się krystalizować.",
+			"Po zakończeniu krystalizacji obiekt będzie wydawał głośne, trzeszczące i skrzypiące dźwięki przez około dwadzieścia minut, a potem z dużą siłą eksploduje tysiącami kawałków."
+		]
+	},
+	{
+		"title": "SCP-427",
+		"image": "427.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-427 jest małym, dokładnie rzeźbionym medalionem z polerowanego srebra. Ozdobny ornament nie wydaje się mieć żadnej funkcji.",
+			"SCP-427 powstał w wyniku umieszczenia pigułki SCP-500 w SCP-914 i ustawienia opcji precyzyjny. Kiedy jest zamknięty nie wykazuje żadnych specjalnych właściwości. Kiedy SCP-427 jest otwarty i działa na żywą tkankę, gwałtownie leczy wszystkie jej uszkodzenia i w jakiś sposób oczyszcza ją z obcych związków chemicznych i drobnoustrojów.",
+			"Jednakże, długotrwała ekspozycja na działanie SCP-427 powoduje poważne zagrożenie dla zdrowia. Wraz z leczeniem obrażeń medalion poprawia sprawność układu odpornościowego organizmu. Personel klasy D wystawiony na działanie SCP-427 przez ponad godzinę zaczął ulegać mutacji, by w końcu stać się bezkształtną masą tkanki.",
+			"\"Bestia z ciała\" stworzona dzięki SCP-427 jest niesamowicie agresywna, ze śmiertelnym skutkiem atakuje każdą osobę, jaka znajdzie się w polu widzenia. Jest też bardzo odporna na większość znanych broni."
+		]
+	},
+	{
+		"title": "SCP-500",
+		"image": "500.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-500 jest małym plastikowym pojemnikiem, który w momencie pisania zawiera czterdzieści siedem (47) czerwonych pigułek.",
+			"Jedna pigułka po doustnym podaniu w przeciągu dwóch godzin leczy obiekt badawczy ze wszystkich chorób, oczywiście czas działania lekarstwa zależy od ogólnej kondycji obiektu.",
+			"Pomimo licznych prób, wszystkie wysiłki mające na celu zsyntetyzowanie składnika aktywnego SCP-500 spełzły na niczym."
+		]
+	},
+	{
+		"title": "SCP-513",
+		"image": "513.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-513 jest zwyczajnym, zardzewiałym krowim dzwonkiem. Wszelkie oznaczenia oraz grawerowania nie są widoczne na powierzchni ze względu na dużą ilość korozji.",
+			"Mniej więcej godzinę po ekspozycji do jakiegokolwiek dźwięku wydanego przy pomocy SCP-513, ofiary zaczynają przelotnie zauważać podmiot, oznaczony jako SCP-513-1.",
+			"Wszystkie wykonane do tej pory przesłuchania wskazują, że SCP-513-1 jest wysokim, wychudzonym humanoidem z nienaturalnie długimi rękoma."
+		]
+	},
+	{
+		"title": "SCP-682",
+		"image": "682.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-682 to duże, gado-podobne stworzenie o nieznanym pochodzeniu. Zdaje się nienawidzić wszelkiego życia, co zostało wyjawione przez obiekt podczas kilku przesłuchań, mających miejsce, kiedy podmiot znajdował się w zabezpieczeniu.",
+			"Wielokrotnie zaobserwowano, iż SCP-682 posiada skrajnie wysoką siłę i refleks oraz może rozwijać skrajnie wysokie prędkości; jednakże dokładne wyniki obserwacji są zróżnicowane. Zdolności regeneracyjne SCP-682 oraz jego żywotność są zdumiewające; zaobserwowano poruszanie się i mówienie obiektu pomimo uszkodzenia lub zgnicia jego ciała w 87%.",
+			"SCP-682 musi zostać zniszczony najszybciej jak to możliwe."
+		]
+	},
+	{
+		"title": "SCP-714",
+		"image": "714.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-714 to mały, wykonany z zielonej odmiany jadeitu pierścień, który zmienia rozmiar w celu dopasowania się do palca dotykającej go osoby; jest to jednak jego najmniej istotna właściwość.",
+			"SCP-714 posiada kilka wartych odnotowania właściwości, wliczając wyczerpanie, przemożna chęć odpoczynku/zaśnięcia, spowolnione reakcje i ograniczone zdolności psychiczne.",
+			"Nosiciele SCP-714 wykazują zwiększoną tolerancję na różne substancje chemiczne i wyjątkową odporność na czynniki psychiczne oraz środki memetyczne."
+		]
+	},
+	{
+		"title": "SCP-860",
+		"image": "860_1.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-860 to ciemnoniebieski klucz o niewyróżniającym się kształcie.",
+			"W pozornie losowych przedziałach czasowych, seria numerów pojawia się na powierzchni klucza. Później zidentyfikowane jako koordynaty układu UTM.",
+			"SCP-860 pasuje do każdych tradycyjnych zamków od drzwi wymagających klucza, które znajdują się w okolicy danych koordynatów.",
+			"Gdy SCP-860 jest użyty do odblokowania i otwarcia drzwi, nie prowadzą one do typowego dla nich miejsca docelowego; zamiast tego otwierają się na leśną polanę, oznaczoną jako SCP-860-1."
+		]
+	},
+	{
+		"title": "SCP-895",
+		"image": "895.png",
+		"align_x": "center",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-895 to ozdobna trumna dębowa, pozyskana z Kostnicy [ZMIENIONO].",
+			"SCP-895 wywołuje zniekształcenia w sprzęcie wideo i fotograficznym, znajdującym się w promieniu 50 metrów od obiektu. Zniekształcenia są silne, widać je w postaci niepokojących halucynacji o zróżnicowanym czasie trwania i częstotliwości wystąpień, co zależy od dystansu oddalenia kamery od SCP-895.",
+			"W promieniu do 5 metrów od artefaktu, nagrany obraz może u większości ludzi wywołać silną traumę psychiczną i histerię."
+		]
+	},
+	{
+		"title": "SCP-914",
+		"image": "914.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-914 to olbrzymi mechanizm zegarowy ważący kilka ton i pokrywający obszar osiemnastu metrów kwadratowych, składający się z napędów śrubowych, pasów, kół pasowych, zębatek, sprężyn i innych mechanizmów.",
+			"Gdy przedmiot zostanie umieszczony w Kabinie Wejściowej i klucz zostanie przekręcony, SCP-914 \"udoskonali\" przedmiot. Podczas tego procesu nie następuje żadne zużycie energii, a przedmiot jest udoskonalony w zależności od ustawienia określonego na przednim panelu SCP-914.",
+			"Do SCP-914 nigdy nie wolno wnosić żadnej materii organicznej."
+		]
+	},
+	{
+		"title": "SCP-939",
+		"image": "939.png",
+		"align_x": "left",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-939 to stałocieplne, stadne drapieżniki wykazujące zaniki organów, charakterystyczne dla organizmów troglobiontycznych. SCP-939 mierzy średnio 2,2 metra wzrostu stojąc prosto i waży około 250 kilogramów, chociaż waga jest bardzo zmienna.",
+			"Główną metodą wabienia ofiary jest imitowanie ludzkiej mowy, używając do tego głosu poprzedniej ofiary, chociaż zaobserwowano imitacje wokalizacji innych gatunków oraz aktywne, nocne polowania.",
+			"Ofiara jest zazwyczaj zabijana pojedynczym ugryzieniem w szyję bądź twarzoczaszkę; siła ugryzienia została oszacowana na około 35 MPa."
+		]
+	},
+	{
+		"title": "SCP-966",
+		"image": "966.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-966 są widoczne jedynie na długościach fal od 700 nm do około 900 nm. Właściwość ta dotyczy wszystkich tkanek SCP-966, bez względu na ich stan.",
+			"Na metodę łowów obiektu składa się pojedyncza emisja wcześniej nieznanego typu fal, które permanentnie uniemożliwiają ofierze wejście w fazę snu NREM ani REM. Niemożliwy jest także mikro-sen.",
+			"Po pozbawieniu ofiar możliwości snu, SCP-966 będą je nachodzić do momentu, kiedy brak snu doprowadzi ofiary do utraty przytomności. Wtedy SCP-966 zaczną konsumować ofiarę."
+		]
+	},
+	{
+		"title": "SCP-970",
+		"image": "970.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-970 to anomalne zjawisko przestrzenne w którym grupa pomieszczeń jest zapętlona sama w sobie. We wszystkich przypadkach oznacza to drzwi, pojawiające się na ścianach pomieszczeń, będące w linii prostej, pozwalające na poruszanie się w jednej linii do przodu kończąc w pozycji startującej.",
+			"Wszelkie zmiany w pomieszczeniu nie wpływają na sąsiednie pomieszania i ich powierzchnie. Nie jest obecnie znane wyjaśnienie występowania tego zjawiska.",
+			"Od czasu pierwszego odkrycia zjawiska SCP-970, odkryto [ZMIENIONO] kolejnych przypadków występowania tego zjawiska, przy czym [ZMIENIONO] % z nich w zasięgu 800 kilometrów od Sektora 19."
+		]
+	},
+	{
+		"title": "SCP-1025",
+		"image": "1025.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-1025 to książka w twardej oprawie, licząca okołu 1 500 stron. Na przedniej części okładki i grzbiecie zapisany jest tytuł \"The Encyclopedia of Common Diseases\".",
+			"Nie odnaleziono innych egzemplarzy książki z identycznym tytułem i nazwą wydawcy. Nie potwierdzono istnienia samego wydawnictwa.",
+			"Czytelnicy książki najwyraźniej cierpią symptomy chorób, o których czytają. Manifestacja owego efektu może zająć od [ZMIENIONO] do [ZMIENIONO] godzin."
+		]
+	},
+	{
+		"title": "SCP-1048",
+		"image": "1048.png",
+		"align_x": "center",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-1048 to niewielki miś pluszowy mierzący około 33 cm wzrostu. Testy wykazały, że skład obiektu nie wyróżnia żaden czynnik, który mógłby odróżniać go od nierozumnych pluszowych misiów.",
+			"Osobnik może poruszać się zgodnie z własną wolą i komunikować się za pomocą znacznie ograniczonego zasobu gestów. Obiekt często w nadzwyczajny sposób przejawia przywiązanie do ludzi; większość osób uznaje to za ujmujące.",
+			"Przejawy tego zachowania to zazwyczaj przytulanie się do nogi, aczkolwiek zaobserwowano także tańczenie, skakanie w miejscu, a nawet — w dwóch, niezależnych przypadkach — rysowanie typowych dziecięcych obrazków dla pracowników obsługi.",
+			"SCP-1048 wykorzystuje swoje zdolności do wzbudzania pozytywnych odczuć, by zapewnić innym fałszywe poczucie bezpieczeństwa, co pozwola mu na zbieranie materiałów potrzebnych do tworzenia jego kreacji. Twory te zachowują się w sposób zupełnie odmienny od zwyczajnego zachowania SCP-1048, ponadto wszystkie wykazują skrajną brutalność względem ludzi."
+		]
+	},
+	{
+		"title": "Wieżyczka High Intensity Discharge",
+		"image": "HID.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Wieżyczka H.I.D. jest przykładem najbardziej zaawansowanej technologii Fundacji.",
+			"Broń została stworzona, aby skutecznie zatrzymać SCP-106 w przypadku naruszenia bezpieczeństwa. Wieżyczka potrzebuje umiarkowanego czasu na naładowanie po strzale, jednakże prędkość SCP-106 rekompensuje tę wadę."
+		]
+	},
+	{
+		"title": "SCP-1048-A",
+		"image": "1048_A.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Prymitywna kopia SCP-1048. Składa się w całości z ludzkich uszu. Wydając cienki pisk, ciało każdej osoby (łącznie z jej narządami wewnętrznymi) w promieniu 10 metrów pokrywa się naroślami, podobnymi do uszu."
+		]
+	},
+	{
+		"title": "SCP-1123",
+		"image": "1123.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-1123 to ludzka czaszka, której brakuje dolnej żuchwy i wszystkich zębów. Na zewnętrznym czołowym płacie znajduje się współczesny skrypt khmerski, napisany ludzką krwią, który oznacza \"Pamiętaj\".",
+			"Testy genetyczne potwierdzają, że czaszka i krew pochodzą od tej samej osoby. Skrypt khmerski jest bardzo wyblakły i niewidoczny dla większości osób znajdujących się w odległości większej niż 5 metrów.",
+			"Podmioty 1 metr lub mniej od obiektu stwierdzą, że krew jest świeża, jakby była \"wciąż mokra\", a także najdą również inne anomalne zjawiska sensoryczne, w tym zapachy, dźwięki i reakcje dotykowe."
+		]
+	},
+	{
+		"title": "SCP-1162-ARC",
+		"image": "1162_ARC.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-1162-ARC jest, obecnie, dziurą w ścianie z pustaków w Celi Przechowawczej numer 4 w Ośrodku [ZMIENIONO].",
+			"SCP-1162-ARC jest aktywny, kiedy świadomy byt sięga do dziury, w którym to momencie palce bytu dotykają powierzchni podobnej do tej, w której SCP-1162-ARC obecnie się znajduje, po czym odkrywa on przedmiot mogący zmieścić się przez dziurę.",
+			"Te przedmioty zostały rozpoznane jako takie, które użytkownik zgubił lub poszukiwał w którymś momencie życia."
+		]
+	},
+	{
+		"title": "SCP-1499",
+		"image": "1499.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-1499 jest radziecką maską gazową typu GP-5. Test ciśnieniowy przeprowadzony na obiekcie sugeruje, że zachował on swoje pierwotne możliwości.",
+			"Anomalny efekt SCP-1499 aktywuje się gdy człowiek założy SCP-1499 na głowę. Po czasie około sekundy od momentu, gdy SCP-1499 jest w pełni zabezpieczony na głowie podmiotu, ten znika, oraz staje się od tej chwili niewykrywalny.",
+			"Po założeniu SCP-1499 testerzy donosili o kompletnie zmienionej okolicy względem miejsca, w którym przebywali przed założeniem SCP-1499."
+		]
+	},
+	{
+		"title": "SCP-2022",
+		"image": "2022.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-2022 to kapsułki żelatynowe [SR], które się kompresują i stale emitują energię elektromagnetyczną podobną do światła słonecznego, zawierają także inne nieznane aktywne składniki, z których dwa, oznaczone jako Lumen i Kelvin (K) na podstawie opakowania.",
+			"Przyjęta doustnie 1 dawka SCP-2022 zapewnia stałe dostarczanie organizmowi zdrowych, dziennych ilości witaminy D przez okres średnio 16 miesięcy (487 dni).",
+			"Nadużycie suplementów nasila te odczucia; w grupie testowej wystąpiło nasilone uczucie pieczenia w narządach, rozwój nadwrażliwości na światło, oparzenia słoneczne, stany zapalne, przyciemniona lub intensywna bioluminescencja, hiperwitaminoza D, wymioty, mdłości, odwodnienie, zmniejszony apetyt, bezsenność, zaparcia, zmęczenie, drażliwość, miastenia i wapnienie przerzutowe."
+		]
+	},
+	{
+		"title": "Karty Dostępu",
+		"image": "key_card.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"Każdemu pracownikowi Fundacji SCP przydzielony jest odpowiedni poziom uprawnień bezpieczeństwa i posiada on kartę dostępu o równoważnym poziomie.",
+			"Te karty dostępu służą do dostępu do stref o ograniczonym dostępie w placówkach Fundacji.",
+			"Z uwagi na nieodłączne ryzyko związane z bezpieczeństwem, zgubienie karty dostępu jest traktowane jako poważne wykroczenie i może być podstawą do terminacji."
+		]
+	},
+	{
+		"title": "Urządzenia Blokujące",
+		"image": "devices.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": null
+	},
+	{
+		"title": "Mobilne Formacje Operacyjne",
+		"image": "MTF.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": true,
+		"descriptions": [
+			"Grupy MTF to niewielkie zespoły (zwykle składające się z dziesięciu do dwudziestu agentów, choć zdarzają się grupy liczące ponad 50 agentów), które specjalizują się w określonych rolach lub reagują na określone sytuacje.",
+			"Mobilna Formacja Operacyjna E-11 (\"Nine Tailed Fox\") to intensywnie wyszkolona grupa operacyjna specjalizująca się w ochronie i ponownym zabezpieczaniu obiektów SCP przechowywanych w Ośrodku-[ZMIENIONO].",
+			"Do ich zadań należy radzenie sobie z naruszeniami zabezpieczeń poprzez ponowne zabezpieczenie wszystkich aktywnych, wrogich instancji SCP, ratowanie ocalałych pracowników Fundacji i terminacja wszelkich zbuntowanych personelów klasy D."
+		]
+	},
+	{
+		"title": "Gogle Noktowizyjne",
+		"image": "NVG.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Standardowe gogle noktowizyjne są przekazywane MFO w przypadku awarii zasilania.",
+			"Naukowcy również je otrzymują, ale zaleca się im skupienie na ewakuacji w przypadku awarii zasilania."
+		]
+	},
+	{
+		"title": "Nadajnik Radiowy",
+		"image": "radio.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"Radio jest elementem wyposażenia. Jest niezbędne do dostarczania personelowi informacji poprzez słuchanie rozmów transmitowanych przez pracowników Fundacji.",
+			"Użytkownik może przełączać między kanałami od jeden do pięć (1-5) naciskając odpowiedni klawisz numeryczny."
+		]
+	}
+]
